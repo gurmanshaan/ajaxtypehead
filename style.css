@@ -41,6 +41,7 @@ input.search {
   margin: 0;
   padding: 0;
   position: relative;
+  /*perspective: 20px;*/
 }
 
 .suggestions li {
@@ -57,7 +58,7 @@ input.search {
 }
 
 .suggestions li:nth-child(even) {
-  transform: perspective(100px) rotateX(30deg) translateY(2px) scale(1.001);
+  transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
   background: linear-gradient(to bottom, #ffffff 0%, #efefef 100%);
 }
 
@@ -70,6 +71,6 @@ span.population {
   font-size: 15px;
 }
 
-.h1 {
+.hl {
   background: #ffc600;
 }
